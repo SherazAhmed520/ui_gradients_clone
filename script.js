@@ -10,6 +10,6 @@ next.addEventListener("click", () => {
     console.log(color1);
     console.log(color2);
     body.style.background = `linear-gradient(to left, #${color1}, #${color2})`;
-    mid.innerHTML = `<span id="code"><i class="fa fa-square" style="color: #${color1}"></i> #${color1} &#8594;#${color2} 
-    <i class="fa fa-square" style="color: #${color2}"></i>  </span>`;
+    mid.innerHTML = `<span id="code"><i class="fa fa-square" style="color: #${color2}"></i> #${color1} &#8594;#${color2} 
+    <i class="fa fa-square" style="color: #${color1}"></i>  </span>`;
 })
